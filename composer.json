@@ -7,5 +7,10 @@
             "name": "Volodymyr Rudak",
             "email": "krasavcheg.ua@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "krasavchegUa\\BarBundle\\": ""
+        }
+    }
 }
