@@ -1,0 +1,13 @@
+services:
+    barbundle.hellocommand:
+        class: krasavchegUa\BarBundle\Command\HelloCommand
+        tags:
+            - {name: 'chain_command', main: 'foo:hello'}
+    barbundle.greetingcommand:
+        class: krasavchegUa\BarBundle\Command\GreetingCommand
+        tags:
+            - {name: 'chain_command', main: 'foo:hello'}
+    barbundle.yocommand:
+        class: krasavchegUa\BarBundle\Command\YoCommand
+        tags:
+            - {name: 'chain_command', main: 'foo:hello'}

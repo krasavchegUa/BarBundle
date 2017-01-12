@@ -1,0 +1,11 @@
+{
+    "name": "krasavcheg.ua/bar-bundle",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/krasavchegUa/BarBundle",
+    "authors": [
+        {
+            "name": "Volodymyr Rudak",
+            "email": "krasavcheg.ua@gmail.com"
+        }
+    ]
+}
